@@ -1,0 +1,32 @@
+aid: aviationapi
+name: AviationAPI
+description: "FAA Aeronautical Charts and Publications, Airport Information, and Airport Weather"
+url: https://docs.aviationapi.com
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: AviationAPI
+    description: "FAA Aeronautical Charts and Publications, Airport Information, and Airport Weather"
+    humanURL: https://docs.aviationapi.com
+    baseURL: https://docs.aviationapi.com
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: https://docs.aviationapi.com
+common:
+  - type: Website
+    url: https://docs.aviationapi.com
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
